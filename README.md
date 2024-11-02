@@ -21,8 +21,9 @@ Para ejecutar este proyecto, necesitarás instalar los siguientes paquetes de Py
 
 ```bash
 pip install pandas selenium webdriver-manager requests openai langchain
+```
 
-También necesitas configurar un entorno virtual y generar un archivo `requirements.txt` para gestionar las dependencias del proyecto. Si deseas que Git ignore el entorno virtual, agrega la carpeta correspondiente (`env/` o `venv/`) a tu archivo `.gitignore`.
+También necesitas configurar un entorno virtual y generar un archivo `requirements.txt` para gestionar las dependencias del proyecto. Si deseas que Git ignore el entorno virtual, agrega la carpeta correspondiente (`env/` o `virtual/`) a tu archivo `.gitignore`.
 
 ### Cómo usarlo
 1. **Configura las credenciales**: Ingresa tu usuario y contraseña de WordPress y tu clave API de OpenAI en el archivo de configuración.
